@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>ToDo app</title>
+</head>
+
+<body>
+    <section class="create">
+        <div class="container">
+            <div class="create__optinon">
+                <p class="create__new-window">=> Нажмите, чтобы создать запись...</p>
+                <div class="create__form none">
+                    <form action="" class="form">
+                        <div class="mb-3">
+                            <label id="inputName" for="exampleFormControlInput1" class="form-label">Название</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Введите название...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Ваш текст</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Введите текст..."></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Дата завершения</label>
+                            <input type="text" class="form-control" id="finish-date" placeholder="Введите дату завершения...">
+                        </div>
+                        <button id="AddCard" type="button" class="add-btn">Добавить</button>
+                    </form>
+                </div>
+                <div class="create__nav">
+                    <a href="history.html" class="page__history-link">История</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="empty-page">
+        <div class="container">
+            <div class="empty-page__content">
+                <p id="textEmptyPage"> Здесь пока ничего нет. Создайте свою первую запись =></p>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.empty-page__content {
+    position: relative;
+
+    border: 1px solid antiquewhite;
+    border-radius: 15px;
+    background-image: url("../../image/empty-page/empty.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    min-height: min(800px, 90vh);
+
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)) ;
+    gap: 20px;
+
+    #textEmptyPage {
+        text-align: center;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        font-size: clamp(1rem, 0.673rem + 1.63vw, 2rem);
+        opacity: 0.7;
+
+        text-wrap: balance;
+    }
+}

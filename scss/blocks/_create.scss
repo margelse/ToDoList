@@ -1,0 +1,32 @@
+.create {
+    font-size: 20px;
+}
+.create__optinon {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    gap: 10px;
+}
+.create__new-window {
+    padding: 10px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.create__nav {
+    justify-self: center;
+}
+.page__history-link {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.create__form {
+    border: 1px solid antiquewhite;
+    padding: 10px;
+    border-radius: 15px;
+
+    opacity: 1;
+}
